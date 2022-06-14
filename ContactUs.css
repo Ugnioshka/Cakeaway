@@ -1,0 +1,83 @@
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+  }
+
+
+/* --------------------- Form ---------------------*/
+
+label {
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F5F4F4;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+form {
+    width: 20vw;
+    margin: 2vh auto;
+}
+
+input {
+    border-radius: 10px;
+    color:#707070;
+    /* height: 50px; */
+    width: 25vw;
+    
+    
+}
+
+.personal-details { 
+    height: 30px;
+}
+
+textarea {
+    border-radius: 10px;
+    color:#707070;
+    width: 25vw;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    height: 660px;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    margin-bottom:  10px;
+}
+
+.flex-item-email {
+    margin-left: 0px;
+}
+
+button {
+    color: #F7FFF7;
+    background: #E24D75;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 16px;
+    border-color: #707070;
+    display: inline-block;
+    margin: 10px auto 0;
+    width: 150px;
+    font-family: Helvetica, sans-serif;
+  }
+button:hover {
+    background: rgb(11,60,73, 80%);
+  }
+    

@@ -1,0 +1,48 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    color: #707070;
+    background-color: #F5F4F4;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+/* -------------------- Main section style ------------------ */
+
+.container-wrap {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 60px 0;
+}
+
+img {
+    width: 250px;
+    border-radius: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.star {
+    color: #0B3C49;
+    font-size: 30px;
+}
+
+

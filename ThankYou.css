@@ -1,0 +1,45 @@
+
+
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    color: #707070;
+    background-color: #F5F4F4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+
+/*-------------------------------------- Main section -------------------*/
+
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: xx-large;
+    color: #707070;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    color: #707070;
+}
+
+
+.container.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+    height: 300px;
+}
+
